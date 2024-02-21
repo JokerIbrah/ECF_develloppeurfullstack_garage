@@ -37,6 +37,31 @@ Vincent Parrot considère son atelier comme un véritable lieu de confiance pour
     <!--ajout des horraire d'ouverture-->
     <a href="C:\Users\Admin\ECF_develloppeurfullstack_garage\horraire_d'ouverture.png">horaire d'ouverture</a>
    </div>
+   <section id="testimonials">
+    <h2>Témoignages</h2>
+    <!-- Afficher les témoignages approuvés ici -->
+</section>
+
+<!-- Formulaire de soumission de témoignages -->
+<form action="traitement_temoignage.php" method="post">
+    <label for="name">Nom:</label>
+    <input type="text" id="name" name="name" required><br>
+    
+    <label for="comment">Commentaire:</label>
+    <textarea id="comment" name="comment" required></textarea><br>
+    
+    <label for="rating">Note:</label>
+    <select id="rating" name="rating" required>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select><br>
+    
+    <button type="submit">Soumettre</button>
+</form>
+
    <footer>
     <a href="C:\Users\Admin\ECF_develloppeurfullstack_garage\contact.php">Nous contacter</a>
    </footer>

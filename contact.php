@@ -99,5 +99,6 @@ button {
 </div>
 
     </form>
+    <img src="C:\Users\Admin\ECF_develloppeurfullstack_garage\horraire_d'ouverture.png" alt ="horaire d'ouverture"> 
     </body>
 </html>
